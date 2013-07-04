@@ -1,0 +1,20 @@
+0.  BMP supports 6,777,216 colors, GIF supports 256 colors, JPEG supports 16.7 million colors while PNG can also support 16.7 million colors. 
+1. GIF
+2. Lossy compression creates smaller files by discarding (losing) some information about the original image.  It removes details and color changes it deems too small for the human eye to differentiate.  Lossless compression, on the other hand, never discards any information about the original file.
+3. JPEG
+4. Deleting a file most often merely rewrites the metadata that pointed to the file, but leaves the disk blocks containing the file’s contents intact.
+5. Recover using traditional “undelete” tools such as Norton Utilities.
+6.  This header defines a set of integral type aliases with specific width requirements, along with macros specifying their limits and macro functions to create values of these types.
+7.  Used to store small signed and unsigned numbers.
+8.  A BYTE has 1 byte, DWORD and LONG  has 4 bytes while WORD has 2 bytes.
+9.  The first two bytes are BITMAPFILEHEADER and BITMAPINFOHEADER.
+10.  bfSize is the size, in bytes, of the bitmap file, while biSize is the number of bytes required by the structure.
+11.  If biHeight is negative, indicating a top-down DIB, biCompression must be either BI_RGB or BI_BITFIELDS.
+12.  biBitCount.
+13.  fopen will return NULL if there is no output file created.
+14.  Because it returns 1 pixel/element of the bitmap at a time.
+15.  Zero
+16. Reposition stream position indicator
+17. This is an integer constant which, when used as the whence argument to the fseek or fseeko function, specifies that the offset provided is relative to the current file position. 
+18. Fozzie bear.
+
